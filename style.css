@@ -2,9 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
-body{
-    height: 3000px;
-}
+
 .indie-flower-regular {
     font-family: "Indie Flower", serif;
     font-weight: 400;
@@ -141,7 +139,7 @@ header h2{
     align-content: center;
 }
 figure{
-    margin: 2px 18px ;
+    margin:  10px ;
     color: #F6F1F1;
     transition: 0.1s ease ;
     font-size: 20px;
@@ -160,25 +158,6 @@ img{
     
     height: 96px;
     width: 96px;
-}
-figure:hover{
-    transition: 0.3s ease ;
-    color: black;
-}
-figcaption{
-    font-family: "Gowun Dodum", serif;
-    font-weight: 400;
-    font-style: normal;
-    padding-left: 5px;
-}
-.color-1:hover{
-    color: rgb(235, 45, 203);
-}
-.color-2:hover{
-    color: rgba(218, 165, 32, 0.678);
-}
-.color-3:hover{
-    color: rgb(185, 95, 22);
 }
 table{
     font-size: 50px;
@@ -213,7 +192,7 @@ footer p{
 }
 @media (max-width: 1545px) {
    img{
-    width: 420px;
+    width: 450px;
    }
    article p{
     font-size: 25px;
@@ -266,10 +245,10 @@ footer p{
 }
 @media (max-width:870px) {
    img{
-    width: 240px;
+    width: 230px;
    }
    content{
-    height: 1250px;
+    height: 1300px;
    }
    #header-main h1{
     font-size: 100px;

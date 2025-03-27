@@ -100,7 +100,7 @@ content{
     align-items: center;
 }
 #section-main{
-    height: 1600px;
+    height: 1700px;
     border: 1px solid transparent;
     border-top: rgba(239, 238, 238, 0.661);
    
@@ -122,10 +122,16 @@ content{
     width: 100%;
     white-space: nowrap;
 }
+article{
+    height: 313px;
+    display: flex;
+    justify-content: center;
+}
 article p{
-    font-size: 50px;
-    margin: 100px 0px;
+    font-size: 35px;
+    margin: 80px 0px;
     text-align: center;
+    width: 50%;
 }
 header h2{
     height: 100px;
@@ -200,11 +206,18 @@ footer p{
         padding: 5vh 4vw;
     }
 }
+@media (max-width: 1780px) {
+    article p{
+        font-size: 30px;
+    }
+}
 @media (max-width: 1545px) {
    img{
     width: 420px;
    }
-
+   article p{
+    font-size: 25px;
+   }
 }
 @media (max-width: 1375px) {
    img{
@@ -228,7 +241,7 @@ footer p{
      height: 2000px;
     }
     #section-main{
-        height: 1600px;
+        height: 1700px;
        }
        .content-photo img:hover{
         width: 330px;
@@ -237,7 +250,7 @@ footer p{
 }
 @media (max-width:1030px) {
     #section-main{
-     height: 1670px;
+     height: 1700px;
     }
 }
 @media (max-width:1170px) {

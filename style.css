@@ -2,6 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    height: 3000px;
+}
 .indie-flower-regular {
     font-family: "Indie Flower", serif;
     font-weight: 400;
@@ -73,22 +76,31 @@ content{
     margin-left: auto;
     margin-right: auto;
 }
+.content-info{
+    height: 160px;
+}
 .content-photo{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 700px;
+    height: 900px;
 }
 .content-photo img{
+    transition: 0.3s ease ;
     height: 660px;
     padding: 10px;
+}
+.content-photo img:hover{
+    transition: 0.3s ease ;
+    width: 470px;
+    height: 680px;
 }
 .section-photo{ 
     display: flex;
     align-items: center;
 }
 #section-main{
-    height: 100vh;
+    height: 1600px;
     border: 1px solid transparent;
     border-top: rgba(239, 238, 238, 0.661);
    
@@ -129,7 +141,19 @@ figure{
     font-size: 20px;
 }
 img{
+
     width: 450px;
+}
+.icon{
+    transition: 0.3s ease;
+    height: 80px;
+    width: 80px;
+}
+.icon:hover{
+    transition: 0.4s ease ;
+    
+    height: 96px;
+    width: 96px;
 }
 figure:hover{
     transition: 0.3s ease ;
@@ -150,6 +174,10 @@ figcaption{
 .color-3:hover{
     color: rgb(185, 95, 22);
 }
+table{
+    font-size: 50px;
+    text-align: center;
+}
 footer{
     height: 60px;
     border-top: 1px solid lightgray;
@@ -158,13 +186,25 @@ footer p{
     font-size: 30px;
     padding: 15px 0px 0px 30px;
 }
+@media (max-height: 900px) {
+    #header-main h1{
+        font-size: 225px;
+        text-align: right;
+        padding: 3vh 3vw 1vh 3vw;
+    }
+    header ul{
+        font-size: 50px;
+        text-decoration: none;
+        list-style-type: none;
+        text-align: right;
+        padding: 5vh 4vw;
+    }
+}
 @media (max-width: 1545px) {
    img{
     width: 420px;
    }
-    content{
-     height: 2400px;
-    }
+
 }
 @media (max-width: 1375px) {
    img{
@@ -187,10 +227,22 @@ footer p{
     content{
      height: 2000px;
     }
+    #section-main{
+        height: 1600px;
+       }
+       .content-photo img:hover{
+        width: 330px;
+        height: 480px;
+    }
+}
+@media (max-width:1030px) {
+    #section-main{
+     height: 1670px;
+    }
 }
 @media (max-width:1170px) {
    img{
-    width: 250px;
+    width: 270px;
    }
     content{
      height: 1500px;
@@ -201,7 +253,7 @@ footer p{
 }
 @media (max-width:870px) {
    img{
-    width: 200px;
+    width: 240px;
    }
    content{
     height: 1250px;
@@ -220,7 +272,7 @@ footer p{
 }
 @media (max-width:780px) {
    img{
-    width: 200px;
+    width: 220px;
    }
     content{
      height: 1800px;

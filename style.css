@@ -145,8 +145,12 @@ figure{
     font-size: 20px;
 }
 img{
-
+    transition: 0.3s ease ;
     width: 450px;
+}
+img:hover{
+    transition: 0.3s ease ;
+    transform: scale(1.05);
 }
 .icon{
     transition: 0.3s ease;
@@ -190,9 +194,9 @@ footer p{
         font-size: 30px;
     }
 }
-@media (max-width: 1545px) {
+@media (max-width: 1440px) {
    img{
-    width: 450px;
+    width: 420px;
    }
    article p{
     font-size: 25px;
@@ -243,7 +247,7 @@ footer p{
     height: 350px;
     }
 }
-@media (max-width:870px) {
+@media (max-width:900px) {
    img{
     width: 230px;
    }
@@ -267,7 +271,7 @@ footer p{
     width: 220px;
    }
     content{
-     height: 1800px;
+     height: 1900px;
     }
    header h1{
     font-size: 80px;
